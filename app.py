@@ -328,8 +328,8 @@ def index():
         max_miles = miles_per_day
         min_miles = miles_per_day - 1
 
-        gpx_file = '../FINISH 1/John Muir Trail-2.gpx'
-        csv_file = '../FINISH 1/camp2.csv'
+        gpx_file = 'John Muir Trail-2.gpx'
+        csv_file = 'camp2.csv'
         map_file = 'static/map.html'
         gpx_to_map = GPXToMap(gpx_file, csv_file)
 
